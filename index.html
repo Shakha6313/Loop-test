@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap" rel="stylesheet">
     <title>Loop-test</title>
 </head>
 <body>
@@ -12,17 +15,44 @@
 
     <main class="main">
 
-        <div class="container">
+        <section class="wallet">
 
-            <div class="inner__container">
+            <div class="wallet__container container">
 
-                <div class="left__side">
+                <div class="wallet__left">
 
-                    <div class="my__wallets">
+                    <div class="wallet__left-top">
 
-                        <h2 class="wallet__heading">My Wallets</h2>
+                        <h2 class="wallet__header">My Wallets</h2>
 
-                        <button class="plus__btn"><img class="plus__btn-img" src="./img/plus.svg" alt="#"></button>
+                        <button class="wallet__top-btn" type="button">
+                            +
+                        </button>
+
+                    </div>
+
+
+                    <div class="wallet__left-btm">
+
+                        <form class="wallet__left-list">
+
+                            <label class="wallet__left-item">
+
+                                <input type="radio" name="wallet">
+
+                                <span class="wallet__left-inner-wrapper">
+
+                                    <span class="wallet__item-pic"></span>
+
+                                    <span class="wallet__item-num">**** **** **** 2562</span>
+
+                                    <span class="wallet__item-data">Valid thru: 12/17</span>
+
+                                </span>
+
+                            </label>
+
+                        </form>
 
                     </div>
 
@@ -30,7 +60,7 @@
 
             </div>
 
-        </div>
+        </section>
 
     </main>
 

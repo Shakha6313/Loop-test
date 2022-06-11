@@ -348,7 +348,7 @@ template {
           box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Arial",  sans-serif;
+  font-family: "Barlow",  sans-serif;
 }
 
 img {
@@ -359,23 +359,51 @@ h1, h2, h3, h4, h5, h6 p {
   margin: 0;
 }
 
+body {
+  background-color: RGB(247, 206, 118);
+  font-family: "Barlow";
+}
+
+ul, li, ol {
+  list-style-type: none;
+}
+
 .container {
-  max-width: 1165px;
+  max-width: 1240px;
   margin-left: auto;
   margin-right: auto;
   padding: 0 20px;
 }
 
-.my__wallets {
+.wallet__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 5%;
 }
 
-.plus__btn {
-  border: none;
-  outline: none;
-  background-color: #fff;
-  cursor: pointer;
+.wallet__left {
+  max-width: 500px;
+  width: 100%;
+  max-height: 500px;
+  height: 100%;
+  overflow-y: scroll;
+  background-color: #f2f2f2;
+  padding: 35px 35px;
+}
+
+.wallet__left-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 /*# sourceMappingURL=main.css.map */

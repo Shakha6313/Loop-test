@@ -1,34 +1,52 @@
-
-.inner {
-
-		&__container {
-		}
-}
-.left {
-
-		&__side {
-		}
-}
-.my {
-
-		&__wallets {
-            display: flex;
-		}
-}
 .wallet {
 
-		&__heading {
-		}
-}
-.plus {
+	&__container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 5%;
+	}
 
-		&__btn {
-            border: none;
-            outline: none;
-            background-color: #fff;
-            cursor: pointer;
-		}
+	&__left {
+		max-width: 500px;
+		width: 100%;
+		max-height: 500px;
+		height: 100%;
+		overflow-y: scroll;
+		background-color: #f2f2f2;
+		padding: 35px 35px;
+	}
 
-		&__btn-img {
-		}
+	&__left-top {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__header {
+	}
+
+	&__top-btn {
+	}
+
+	&__left-btm {
+	}
+
+	&__left-list {
+	}
+
+	&__left-item {
+	}
+
+	&__left-inner-wrapper {
+	}
+
+	&__item-pic {
+	}
+
+	&__item-num {
+	}
+
+	&__item-data {
+	}
 }
+
